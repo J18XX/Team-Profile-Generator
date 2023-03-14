@@ -8,6 +8,7 @@ const Intern = require('./lib/Intern');
 
 let teams = [];
 
+// all the questions for prompt
 const questions = {
     Manager: [
         {
@@ -102,6 +103,7 @@ const questions = {
     ]    
 };
 
+// user can chose which role they want to add
 const memberType = [
     {
         type: 'list',
@@ -111,8 +113,8 @@ const memberType = [
     }
 ]
 
+// function for adding new member
 function addNewMenmber(){
-
     return inquirer.prompt(memberType)
         .then(answer => {
             if (answer.memberType === 'Manager'){
