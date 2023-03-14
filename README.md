@@ -14,4 +14,4 @@ Engineer: GitHub username
 Intern: School
 
 This is a sample Team page
-
+![Screenshot1](https://github.com/J18XX/Team-Profile-Generator/blob/main/image/sample.png)
